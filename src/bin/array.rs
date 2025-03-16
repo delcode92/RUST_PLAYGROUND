@@ -1,8 +1,11 @@
 fn main() {
     // simple array
-    let arr1:[i32;4] = [12,4,5,6];
-    println!("{:?}", arr1);
+    //let arr1:[i32; _] = [12,4,5,6];
+    //println!("{:?}", arr1);
 
+    let arr1: [i32; 4] = [12, 4, 5, 6];
+
+    /*
     // shorthand array
     let arr_of_ten = [12;10];
     println!("{:?}", arr_of_ten);
@@ -19,4 +22,6 @@ fn main() {
     
     let get_three_first_index = &arr_of_twelve[..3];
     println!("get three first index: {:?}", get_three_first_index);
+
+    */
 }
